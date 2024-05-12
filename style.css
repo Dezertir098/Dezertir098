@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+a {
+    color: #F5F5F5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cover {
+    background-image: url(img/big_news_461998_id137663\ 1.png);
+    font-family: "Inter", sans-serif;
+    color: #F5F5F5;
+    margin-top: 100px;
+}
+.contact {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.web {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+h1, h2{
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+}
+.about, .exp {
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+.education {
+    background-image: url(img/image\ 3.png);
+    color: #F5F5F5;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+.education h2 {
+    margin-left: 10px;
+}
+.kp11, .itmo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.education p {
+    margin-top: 5px;
+}
+.skills {
+    background-image: url(img/image\ 2.png);
+    color: #F5F5F5;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+.skills h2 {
+    margin-left: 10px;
+}
+.figma, .server, .base{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.skills p {
+    margin-top: 9px;
+}
+.projects {
+    background-image: url(img/image\ 1.png);
+    color: #F5F5F5;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+.projects h2 {
+    margin-left: 10px;
+}
+.projects a {
+    margin-top: 11px;
+    margin-bottom: 13px;
+}
+.minecraft, .sharix, .greenlife{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer {
+    background-color: #0F0F0F;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.logofoot {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.logofoot p {
+    margin-top: 5px;
+    color: #666666;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+}
+.backdoor {
+    display: flex;
+    align-items: center;
+}
+.modal_window {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+@media screen and (min-width: 1080px){
+    .cover {
+        background-image: url(img/big_news_461998_id137663\ 2.png);
+    }
+    .contact {
+        display: flex;
+        margin-top: 500px;
+        margin-left: 10px;
+    }
+    h1, h2{
+        font-size: 32px;
+    }
+    p {
+        font-size: 24px;
+    }
+    .education {
+        background-image: url(img/image\ 6.png);
+        padding: 200px;
+    }
+    .kp11, .itmo {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 250px;
+    }
+    .skills {
+        background-image: url(img/image\ 4.png);
+        padding: 200px;
+    }
+    .figma, .server, .base{
+        display: flex;
+        margin-left: 160px;
+
+    }
+    .projects {
+        background-image: url(img/image\ 16.png);
+        padding: 200px;
+    }
+    a {
+        font-size: 24px;
+    }
+    .minecraft, .sharix, .greenlife{
+        display: flex;
+        margin-left: 160px;
+        
+    }
+    .background {
+        background-color: #0000006e;
+        border-radius: 20px;
+    }
+    .backdoor {
+        display: flex;
+        justify-content: space-between;
+    }
+    .about, .exp {
+        margin-top: 50px;
+        margin-left: 220px;
+    }
+}
